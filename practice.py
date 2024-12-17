@@ -14,7 +14,7 @@ image_id = canvas.create_image(400, 300, image = img)
 canvas.grid(row=0, column=0,columnspan=2,padx=5,pady=5)
 
 def change():
-    
+    canvas.config(background="white")
     img_back = tkinter.PhotoImage(file="D:/ramesh.belbase/Desktop/leaen/LEARNING PYTHON/GRAMS/DAY-31/card_back.png")
     canvas.itemconfig(image_id , image = img_back)
     canvas.image = img_back

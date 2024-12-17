@@ -30,8 +30,6 @@ def change():
     
     
 
-
-
 img1 = tkinter.PhotoImage(file="D:/ramesh.belbase/Desktop/leaen/LEARNING PYTHON/GRAMS/DAY-31/right.png")
 right = tkinter.Button(image=img1, borderwidth=0, highlightthickness=0)
 right.grid(row = 1,column=1,padx=10,pady=10)
